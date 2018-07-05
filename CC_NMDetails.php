@@ -11,7 +11,7 @@ function format_name($string) {
 	$format_name = "";
 	for($i=0; $i<$name_count; $i++)
 	{
-		if ($i == 0)
+		if ($i <> $name_count-1)
 		{
 			$format_name = $arr[$i]. " ";			
 		} else
